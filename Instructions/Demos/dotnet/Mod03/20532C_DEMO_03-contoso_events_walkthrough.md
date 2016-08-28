@@ -8,7 +8,7 @@
 
 1.  In the Libraries window, go to Allfiles **(F):\\Mod03\\Democode\\Contoso.Events**, and then double-click **Contoso.Events.sln**.
 
-1.  In the **Solution Explorer** pane, expand **Shared**.
+1.  In the **Solution Explorer** pane, expand **Shared**. 
 
 1.  In the **Solution Explorer** pane, expand the **Contoso.Events.Data.Generation** project.
 
