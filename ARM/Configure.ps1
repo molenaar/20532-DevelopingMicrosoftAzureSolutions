@@ -1,4 +1,4 @@
-Configuration ConfigureDev
+Configuration Dev
 {
   Import-DscResource -ModuleName xSystemSecurity
   Node ("localhost")

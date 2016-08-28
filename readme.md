@@ -34,10 +34,10 @@ It is strongly recommended that MCTs and Partners access these materials and in 
 
 This repo includes an ARM template (located in the [ARM](/ARM) folder) that can be deployed in-lieu of doing the second lab. This is useful for scenarios where you need to catch up a student after they deployment has failed.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2F20532-DevelopingMicrosoftAzureSolutions%2Fc-release%2FARM%2Flabvm_template.deploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2F20532-DevelopingMicrosoftAzureSolutions%2Fc-release%2FARM%2Flabvm.deploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https:%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2F20532-DevelopingMicrosoftAzureSolutions%2Fc-release%2FARM%2Flabvm_template.deploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https:%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2F20532-DevelopingMicrosoftAzureSolutions%2Fc-release%2FARM%2Flabvm.deploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 

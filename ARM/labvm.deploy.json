@@ -41,8 +41,8 @@
     "vnetId": "[resourceId('Microsoft.Network/virtualNetworks', variables('virtualNetworkName'))]",
     "subnetRef": "[concat(variables('vnetId'), '/subnets/', variables('subnetName'))]",
     "dscExtensionName": "DSCExtension",
-    "dscConfigurationFunction": "ConfigureDev.ps1\\ConfigureDev",
-    "dscModulesUrl": "https://github.com/MicrosoftLearning/20532-DevelopingMicrosoftAzureSolutions/raw/c-release/ARM/ConfigureDev.ps1.zip"
+    "dscConfigurationFunction": "Configure.ps1\\Dev",
+    "dscModulesUrl": "https://github.com/MicrosoftLearning/20532-DevelopingMicrosoftAzureSolutions/raw/c-release/ARM/20532C.ps1.zip"
   },
   "resources": [
     {
