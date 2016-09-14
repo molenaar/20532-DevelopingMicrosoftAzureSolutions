@@ -36,19 +36,17 @@
 
 	d.  In the **Microsoft Azure** section, ensure that the **Host in the cloud** check box is selected.
 
-	e.  In the **Microsoft Azure** section, ensure that the **Website** option is selected in the **Host in the cloud** list.
+	e.  In the **Microsoft Azure** section, ensure that the **App Service** option is selected in the **Host in the cloud** list.
 
 	f.  Click **OK**.
 
-1.  In the **Configure Microsoft Azure Website** dialog box, perform the following steps:
+1.  In the **Create App Service** dialog box, perform the following steps:
 
-	a.  Select a region that is closest to your location.
+	a.  Select the ContosoEventsWeb App Service Plan.
 
-	b.  In the Database server list ensure that **No database** is selected.
+	b.  Leave all other options to their default values.
 
-	c.  Leave all other options to their default values.
-
-	d.  Click **OK**.
+	c.  Click **Create**.
 
 1.  In the **Solution Explorer** pane, expand the **Contoso.Help** project, expand the **Controllers** folder, and then double-click the **HomeController.cs** file.
 
@@ -118,11 +116,13 @@
 
 1. In the navigation pane on the left side of the screen, scroll down, and then click **More Services**.
 
-1. In the **Browse** blade that displays, click **Websites**.
+1. In the **Browse** blade that displays, click **App Services**.
 
-1. In the **Websites** blade that displays, click the Website instance that you just created.
+1. In the **App Services** blade that displays, click the App Service instance that you just created.
 
-1. In the website blade that displays, click the **Pricing Tier** tile.
+1. In the App Service blade that displays, click **App Service Plan**.
+
+1. In the App Service Plan blade that displays, click **Scale Up (App Service Plan)**.
 
 1. In the **Choose your pricing** tier blade that displays, do the following:
 
@@ -133,6 +133,8 @@
 1.  In the website blade, locate the **Summary** section and the tile that displays the Application Insights icon in your resource group.
 
 	> The Summary tile contains a reference to your resource group, a large icon for your Website, and small icons for related resources, such as a SQL Database instance, your hosting plan, and an Application Insights instance. A purple-colored light bulb icon represents the Application Insights hyperlink.
+
+1.  In the navigation pane on the left side of the screen, scroll down, and then click **More Services**.
 
 1.  Click **Application Insights**.
 
