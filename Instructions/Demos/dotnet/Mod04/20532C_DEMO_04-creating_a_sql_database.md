@@ -14,7 +14,9 @@
 
 1.  At the bottom-left corner of the portal, click **New**.
 
-1.  In the **New** blade that displays, click **SQL Database**.
+1.  In the **New** blade that displays, click **Data + Storage**.
+  
+1.  In the **Data + Storage** blade that displays, click **SQL Database**.
 
 1.  In the **SQL database** blade that displays, perform the following steps:
 
@@ -44,10 +46,10 @@
 
 	m.  In the **Confirm Password** box, type **TestPa\$\$w0rd**.
 
-	n.  Click **Location**.
+	n.  In the **Location** box , select the region that is closes to your location.
+	
+	o.  In the **Create V12 server (Latest update)** checkbox, select **Yes**.
 
-	o.  In the **Location** blade that displays, select the region that is closes to your location.
-
-	p.  In the **New server** blade, click **OK**.
+	p.  In the **New server** blade, click **Select**.
 
 1.  In the **SQL database** blade, click **Create** to create the SQL database and Server.
