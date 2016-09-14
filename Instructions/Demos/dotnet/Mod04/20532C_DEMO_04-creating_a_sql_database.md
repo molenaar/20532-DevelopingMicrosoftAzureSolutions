@@ -12,9 +12,11 @@
 
 1.  In the password box, type your password for your Microsoft account.
 
-1.  At the bottom-left corner of the portal, click **New**.
+1.  At the top-left corner of the portal, click **New**.
 
-1.  In the **New** blade that displays, click **SQL Database**.
+2.  In the *New** blade that displays, click **Data + Storage** 
+
+1.  In the **Data + Storage** blade that displays, click **SQL Database**.
 
 1.  In the **SQL database** blade that displays, perform the following steps:
 
