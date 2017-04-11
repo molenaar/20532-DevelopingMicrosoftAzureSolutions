@@ -5,7 +5,7 @@
 1. On the Start screen, locate and click the **Visual Studio 2015** tile.
 
   > **Note:** You might have to use the down arrow to locate the Visual Studio 2015 tile on your Start screen.
-	
+
 1.  On the **File** menu, point to **New**, and then click **Project**.
 
 1.  In the **New Project** dialog box that displays, perform the following steps:
@@ -36,19 +36,21 @@
 
 	d.  In the **Microsoft Azure** section, ensure that the **Host in the cloud** check box is selected.
 
-	e.  In the **Microsoft Azure** section, ensure that the **Website** option is selected in the **Host in the cloud** list.
+	e.  In the **Microsoft Azure** section, ensure that the **App Service** option is selected in the **Host in the cloud** list.
 
 	f.  Click **OK**.
 
-1.  In the **Configure Microsoft Azure Website** dialog box, perform the following steps:
+1.  In the **Create App Service** dialog box, perform the following steps:
 
-	a.  Select a region that is closest to your location.
+	a.  Do not modify the randomly-generated Web App name.
 
-	b.  In the Database server list ensure that **No database** is selected.
+			> **Note:** Values for Resource Group, Subscription and App Service Plan should already be selected. You can modify these selections if you wish.
 
-	c.  Leave all other options to their default values.
+	b.	Click the **New** button in the **App Service Plan** section.
+	
+  c.	In the **Configure App Service Plan** dialog, click the **OK** button.
 
-	d.  Click **OK**.
+	d.  Back in the **Create App Service** dialog box, click the **Create** button.
 
 1.  In the **Solution Explorer** pane, expand the **Contoso.Help** project, expand the **Controllers** folder, and then double-click the **HomeController.cs** file.
 
@@ -118,11 +120,13 @@
 
 1. In the navigation pane on the left side of the screen, scroll down, and then click **More Services**.
 
-1. In the **Browse** blade that displays, click **Websites**.
+1. In the **Browse** blade that displays, click **App Services**.
 
-1. In the **Websites** blade that displays, click the Website instance that you just created.
+1. In the **App Services** blade that displays, click the App Service instance that you just created.
 
-1. In the website blade that displays, click the **Pricing Tier** tile.
+1. In the App Service blade that displays, click **App Service Plan**.
+
+1. In the App Service Plan blade that displays, click **Scale Up (App Service Plan)**.
 
 1. In the **Choose your pricing** tier blade that displays, do the following:
 
@@ -130,15 +134,15 @@
 
 	b.  Click the **Select** button.
 
-1.  In the website blade, locate the **Summary** section and the tile that displays the Application Insights icon in your resource group.
-
-	> The Summary tile contains a reference to your resource group, a large icon for your Website, and small icons for related resources, such as a SQL Database instance, your hosting plan, and an Application Insights instance. A purple-colored light bulb icon represents the Application Insights hyperlink.
+1.  In the navigation pane on the left side of the screen, scroll down, and then click **More Services**.
 
 1.  Click **Application Insights**.
 
-1.  In the new **ASP.NET Application Insights** blade that displays, view the tiles and dashboard for your Website instance.
+1.  In the new **Application Insights** blade that displays, click your **Web App** instance and view the tiles and dashboard.
 
-1.  Scroll down and click the **All webtests response time (ms)** tile.
+1.	Scroll down and click the **Web tests** title.
+
+1.	In the **All webtests response time (ms)** tile, click **Add web test** button.
 
 1.  In the **Create test** blade that displays, perform the following steps:
 

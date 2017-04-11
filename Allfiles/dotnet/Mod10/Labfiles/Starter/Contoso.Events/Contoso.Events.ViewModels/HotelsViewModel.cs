@@ -27,7 +27,7 @@ namespace Contoso.Events.ViewModels
 
         private static IEnumerable<Hotel> GetHotels()
         {
-            Uri serviceUri = ServiceBusEnvironment.CreateServiceUri("sb", "sb10978sidney", "lodging");
+            Uri serviceUri = null;
 
             ChannelFactory<ILodgingService> cf = new ChannelFactory<ILodgingService>(
                 new NetTcpRelayBinding(),

@@ -71,14 +71,6 @@ namespace Contoso.Events.Web.Controllers
         public ActionResult Registered(Guid? id)
         {
             return View(id);
-        }
-
-        [ChildActionOnly]
-        public ActionResult Hotels()
-        {
-            HotelsViewModel viewModel = new HotelsViewModel();
-
-            return PartialView("_Hotels", viewModel);
-        }
+        }        
     }
 }

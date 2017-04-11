@@ -1,4 +1,4 @@
-# Module 6: Storing NoSQL Data in Azure
+# Module 6: Storing Tabular Data in Azure
 
 # Demo: Implementing Azure Storage Tables
 
@@ -10,13 +10,13 @@
 
 1.  In the **New Project** dialog box, perform the following steps:
 
-1.  Expand **Templates**, **Visual C\#**, and then click **Windows Desktop**.
+1.  Expand **Templates**, **Visual C#**, **Windows** and then click **Classic Desktop**.
 
 1.  Click the **Console Application** template.
 
 1.  In the **Name** box, enter the value **Contoso.Storage.Table**.
 
-1.  In the **Location** box, specify the value **AllFiles (F):\\Mod07\\Labfiles\\Starter**
+1.  In the **Location** box, specify the value **AllFiles (F):\\Mod06\\Labfiles\\Starter**
 
 1.  Click **OK**.
 
@@ -256,9 +256,35 @@
 	Console.WriteLine(itEmployee);
 	```
 
-1.  On the Start screen, click the down arrow to see all applications.
+1.  On the Start screen, click the **Internet Explorer** tile.
 
-1.  Click the **Windows Azure Storage Emulator – v3.4** tile.
+1.	In the *Address bar* navigate to the following address:
+
+	<https://go.microsoft.com/fwlink/?LinkId=717179&clcid=0x409>
+
+16. In the **Internet Explorer** download dialog box, click **Save**.
+
+  > **Note:** The download of the *Azure Storage Emulator* executable typically takes around five minutes.
+
+17. Click the **Windows File Explorer** icon in your Taskbar.
+
+18. On the left navigation bar, expand the **This PC** node and click the **Downloads** node:
+
+19. Double-click the **MicrosoftAzureStorageEmulator.msi** file to start the emulator.
+
+20. In the **Microsoft Azure Storage Emulator Setup** wizard, select the checkbox next to the **"I accept the terms in the License Agreement"** statement.
+
+21. Click the **Install** button to install the emulator.
+
+22. Wait for the installer to complete.
+
+	> **Note:** The installer can take between two to five minutes.
+
+23. Click the **Finish** button to close the installer wizard.
+
+1.  On the Start screen, type **Azure Storage Emulator**.
+
+1.  Click the **Microsoft Azure Storage Emulator** tile.
 
 1.  After the command-line application is finished, close the open console window.
 

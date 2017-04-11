@@ -22,33 +22,43 @@
 
 1. In the **Virtual machines** blade that displays, view your list of Virtual Machine instances.
 
-1. At the lower-left corner of the screen, click **New**.
+1. At the top-left corner of the screen, click **New**.
 
-1. In the **New** blade that displays, click **Windows Server 2012 R2 Datacenter**.
+1. In the **New** blade that displays, click the **Compute** option.
 
-1. In the **Create VM** blade that displays, perform the following steps:
+1. In the **Compute** blade that displays, click **Windows Server 2012 R2 Datacenter**.
 
-	a.  In the **Host Name** box, provide a value with the prefix **vm20532demo** followed by your name.
+1. In the **Windows Server 2012 R2 Datacenter** blade that displays, click the **Create** button.
 
-	b.  In the **User Name** box, provide the value **Instructor**.
+1. In the **Create virtual machine** blade that displays, perform the following steps:
 
-	c.  In the **Password** box, provide the value **AzurePa\$\$w0rd**.
+	a.  Locate the **Basics** blade. In the **Name** box, provide a value with the prefix **vm20532demo** followed by your name.
 
-	d.  Click **Pricing Tier**.
+	b.	In the **VM disk type** list, select the value **HDD**.
 
-	e.  In the **Recommend Pricing Tiers** blade, click **Browse All Pricing Tiers**.
+	c.  In the **User Name** box, provide the value **Instructor**.
 
-	f.  Select **A2 Standard**.
+	d.  In the **Password** box and **Confirm Password** boxes, provide the value **AzurePa$$w0rd**.
 
-	g.  Click **Select**.
+	e.	In the **Resource Group** section, locate the **Create new** radio button and select it.
 
-	h.  In the Recommended Pricing Tiers blade, click **Select**.
+	f. 	In the **Resource Group** section, locate the dialog box and enter **20532VirtualMachine** as the name of the *Resource Group*.
 
-	i.  To create the virtual machine by using your specified configuration, click **Create**.
+	g.  Click the **Ok** button.
 
-1.  Select the newly created virtual machine from your Startboard.
+	h.  In the **Choose a size** blade, click **View all**.
 
-1.  In the **vm20532demo\[Your Name Here\]** blade.
+	i.  Select the **A2 Standard** option.
+
+	j.  Click the **Select** button.
+
+	k.  In the **Settings** blade, click the **Ok** button.
+
+	l.  To create the virtual machine using your specified configuration, click the **Ok** button in the **Summary** blade.
+
+1.  Once the VM is created, select the newly created virtual machine from your Dashboard.
+
+1.  In the **vm20532demo[Your Name Here]** blade.
 
 	a.  At the top of the screen, click **Connect**.
 
@@ -64,7 +74,7 @@
 
 	a.  In the **User name** box, provide the value **Instructor**.
 
-	b.  In the Password box, provide the value **AzurePa\$\$w0rd**.
+	b.  In the Password box, provide the value **AzurePa$$w0rd**.
 
 	c.  Click **OK**.
 

@@ -111,7 +111,6 @@
     <Compile Include="EventsGridViewModel.cs" />
     <Compile Include="Dynamic\PropertySpec.cs" />
     <Compile Include="EventsListViewModel.cs" />
-    <Compile Include="HotelsViewModel.cs" />
     <Compile Include="NotificationViewModel.cs" />
     <Compile Include="RegisterViewModel.cs" />
     <Compile Include="EventViewModel.cs" />
