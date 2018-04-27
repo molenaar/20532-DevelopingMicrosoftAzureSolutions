@@ -9,7 +9,7 @@ var copy = require('ncp');
 
 var package = require('./package.json');
 
-var version = package.version;
+var args = require('minimist')(process.argv.slice(2));
 
 var courseName = "20532D";
 
@@ -31,8 +31,8 @@ var tempDirectory = path.join(__dirname, "tmp");
 var docsTempDirectory = path.join(tempDirectory, "Instructions/");
 var filesTempDirectory = path.join(tempDirectory, "AllFiles/");
 var outputDirectory = path.join(__dirname, "out");
-var filesOutputZip = path.join(outputDirectory, "allfiles-v" + version + ".zip");
-var docsOutputZip = path.join(outputDirectory, "lab_instructions-v" + version + ".zip");
+var filesOutputZip = path.join(outputDirectory, "allfiles-v" + args.version + ".zip");
+var docsOutputZip = path.join(outputDirectory, "lab_instructions-v" + args.version + ".zip");
 
 if (fs.existsSync(tempDirectory)) {
     del.sync([tempDirectory]);
