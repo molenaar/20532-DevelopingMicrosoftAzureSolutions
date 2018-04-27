@@ -11,8 +11,6 @@ var package = require('./package.json');
 
 var args = require('minimist')(process.argv.slice(2));
 
-var courseName = "20532D";
-
 marked.setOptions({
   renderer: new marked.Renderer(),
   gfm: true,
@@ -96,7 +94,7 @@ function cleanup() {
 }
 
 function buildDocx(markdownPath, baseFileName) {
-    var docxFilePath = createDocxFile(markdownPath, courseName + baseFileName + '.docx');
+    var docxFilePath = createDocxFile(markdownPath, args.course + '_' + baseFileName + '.docx');
     return docxFilePath;
 }
 
