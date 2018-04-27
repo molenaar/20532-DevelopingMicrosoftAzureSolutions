@@ -6,6 +6,8 @@ jobs:
     environment:
       MAJOR_VERSION: 4
       MINOR_VERSION: 0
+      COURSE: 20532
+      REVISION: D
     working_directory: ~/source/
     steps:
       - checkout
@@ -19,6 +21,7 @@ jobs:
           name: Update Environment Variable at Runtime
           command: |
             echo 'export VERSION_NUMBER=$MAJOR_VERSION.$MINOR_VERSION.$CIRCLE_BUILD_NUM' >> $BASH_ENV
+            echo 'export COURSE_IDENTIFIER=$COURSE$REVISION' >> $BASH_ENV
             source $BASH_ENV
       - run:
           working_directory: ~/source/.build
@@ -31,7 +34,7 @@ jobs:
       - run:
           working_directory: ~/source/.build
           name: Build Lab Content
-          command: node package.js --version $VERSION_NUMBER
+          command: node package.js --version $VERSION_NUMBER --course COURSE_IDENTIFIER
       - store_artifacts:
           path: ~/source/.build/out
           destination: /
