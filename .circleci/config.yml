@@ -18,7 +18,8 @@ jobs:
       - run:
           name: Update Environment Variable at Runtime
           command: |
-            echo 'export VERSION_NUMBER=$MAJOR_VERSION.$MINOR_VERSION.$CIRCLE_BUILD_NUM'
+            echo 'export VERSION_NUMBER=$MAJOR_VERSION.$MINOR_VERSION.$CIRCLE_BUILD_NUM' >> $BASH_ENV
+            source $BASH_ENV
       - run:
           working_directory: ~/source/.build
           name: Install NPM Packages
