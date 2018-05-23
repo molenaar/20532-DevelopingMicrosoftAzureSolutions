@@ -10,7 +10,7 @@
 
 1. Go to *(<https://portal.azure.com>)*.
 
-1. Enter the email address of your Microsoft account. Click **Continue**.
+1. Enter the email address of your Microsoft account. Click **Next**.
 
 1. Enter the password for your Microsoft account.
 
@@ -136,7 +136,7 @@
 
 1. In the **Create Virtual Machine** blade, click **Size** and perform the following steps:
 
-	a. Locate and click the **View all** hyperlink.
+	a. Locate the search field at the top of the blade and then enter the value *F4*.
 
 	a. Locate and select the **F4 Standard** option.
 
@@ -198,6 +198,8 @@
 
 1. Click **Connect** at the top of the screen.
 
+1. In the **Connect to virtual machine** dialog that appears, click the **Download RDP File** button.
+
 1. In the **Internet Explorer download** dialog box, click **Open**.
 
 1. In the **Remote Desktop Connection** dialog box, perform the following steps:
@@ -207,6 +209,10 @@
 	a. Click **Connect**.
 
 1. In the **Windows Security** dialog box, perform the following steps:
+
+	a. Click the **More choices** located at the bottom of the dialog box.
+	
+	a. Click **Use a different account** that appears.
 
 	a. For the **User name** dialog box, provide the value, **Student**.
 
@@ -236,7 +242,7 @@
 
 1. In the navigation pane on the left side, click **Local Server**.
 
-1. In the **Properties** field, click the **IE Enhanced Security Configuration** option that is currently set to **On**.
+1. In the **Properties** field, click the **IE Enhanced Security Configuration** option that is currently set to **Off**.
 
 1. In the **Internet Explorer Enhanced Security Configuration** dialog box, perform the following steps:
 
@@ -248,11 +254,11 @@
 
 #### Task 2: Create an AllFiles Drive
 
-1. Press the ``Windows logo key + W`` to open **Universal Search – Settings**.
+1. Locate and right-click the **Start Menu** located in the lower-left corner of the **Windows** desktop.
 
-1. In the **Search** dialog box, provide the value **disk**.
+	> **Note**: If you are unfamiliar with the latest Windows operating system environment, the **Start Menu** used the **Windows** icon.
 
-1. Click **Create and format hard disk partitions**.
+1. Select the **Disk Management** option.
 
 1. In the **Initialize Disk** dialog box, perform the following steps:
 
