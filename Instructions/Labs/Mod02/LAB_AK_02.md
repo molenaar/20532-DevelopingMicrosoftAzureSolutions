@@ -48,17 +48,17 @@
 
 	a. In the **Name** dialog box, provide the value **vnet20532**.
 
-	a. Ensure that the **Address space** field has the value **10.0.0.0/16**.
+	a. In the **Address space** field provide the value **10.0.0.0/16**.
 
-	a. In the **Resource group** section, select the **Use existing** option.
-
-	a. In the **Resource group** section, locate the dialog box and provide the value **20532**.
+	a. In the **Resource group** field, select the value **20532**.
 
 	a. In the **Location** list, select the region that is closest to your current location.
 
 	a. Within the **Subnet** section, in the **Name** field, provide the value **Apps**.
 
-	a. Within the **Subnet** section, ensure that the **Address range** field has the value **10.0.0.0/24**.
+	a. Within the **Subnet** section, in the **Address range** field, provide the value **10.0.0.0/24**.
+	
+	a. Leave all the other option with the default values.
 
 	a. Click the **Create** button.
 
@@ -78,24 +78,22 @@
 
 1. In the **Create storage account** blade that displays, perform the following steps:
 
-	a. In the **Name** field, provide the value **stor20532[your name in lowercase here]**.
-
-	a. In the **Deployment model** section, ensure that the *Resource manager* option is selected.
-
-	a. In the **Account kind** list, ensure that the *Storage (general purpose v1)* option is selected.
-
+	a. In the **Resource group** field, select the value **20532**.
+	
+	a. In the **Storage account name** field, provide the value **stor20532[your name in lowercase here]**.
+	
 	a. In the **Location** list, select the region closest to your current location.
+	
+	a. In the **Performance** section, ensure that the *Standard* option is selected
+
+	a. In the **Account kind** list, select the **Storage (general purpose v1)** option.
 
 	a. Click on the **Replication** list and select the **Locally-redundant storage (LRS)** option.
 
-	a. In the **Performance** section, ensure that the *Standard* option is selected.
-
-	a. In the **Secure transfer required** section, ensure that the *Disabled* option is selected.
-
-	a. In the **Resource group** section, select the **Use existing** option.
-
-	a. In the **Resource group** section, locate the dialog box and provide the value **20532**.
-
+	a. Click the **Review + create** button.
+	
+	a. Review all the selected options
+	
 	a. Click the **Create** button.
 
 > **Note**: Wait for Azure to finish creating the storage account prior to moving forward with the lab. You will receive a notification when the *Storage Account* is created and you will see the Storage Account's blade.
@@ -110,63 +108,75 @@
 
 1. At the top of the **Virtual machines** blade, click the **Add** button.
 
-1. In the **Virtual Machines** blade that displays, search for and select the following template:
+1. In the **Create a virtual machine** blade that displays, perform the following steps:
 
-	- Visual Studio Community 2017 (latest release) on Windows Server 2016 (x64)
+	a. In the **Resource group** field, select the value **20532**.
 
-	> **Note**: Ensure that you select this specific template as all further lab instructions assume that you are using this exact Azure SDK version, OS and Visual Studio version.
+	a. In the **Virtual machine name** field, provide the value **vm20532**.
+	
+	a. In the **Region** list, select the region closest to your current location.
+	
+	a. In the **Image** list, click in the **Browse all images and disks** link.
+	
+	a. Search for **Visual Studio 2017** and the select the **Visual Studio Community 2017 on Windows Server 2016 (x64)** option in the list of results. 
 
-1. In the **Visual Studio Community 2017 (latest release) on Windows Server 2016 (x64)** blade, ensure that the **Resource Manager** deployment model is selected and click the **Create** button.
+	a. In the **Size** option, click in the **Change size** link.
+	
+	a. Locate and select the **F4** option and click the **Select** button.
+	
+	a. In the **Username** field, provide the value **Student**.
 
-1. In the **Create virtual machine** blade that displays, click **Basics** and perform the following steps:
+	a. In the **Password** and **Confirm password** fields, provide the value **AzurePa$$w0rd**
+	
+	a. In the **Public inboud ports** option, select the **Allow selected ports** option.
+	
+	a. In the **Selected inbound ports** list, select the **RDP (3389)** option.
+	
+	a. Click the **Next: Disks >** button.
 
-	a. In the **Name** dialog box, provide the value **vm20532**.
 
-	a. In the **VM disk type** list, select the value **HDD**.
+1. In the **Disks** tab perform the following steps:
 
-	a. In the **User Name** dialog box, provide the value **Student**.
+	a. In the **OS disk type** option, make sure the **Standard HDD** option is selected.
+	
+	a. In the **Use unmanaged disks** option, select the option **Yes**.
+	
+	a. In the **Storage account** list, select the storage account created in the previous task.
+	
+	a. Click the **Next: Networking >** button.
+	
 
-	a. In the **Password** and **Confirm Password** dialog boxes, provide the value **AzurePa$$w0rd**
+1. In the **Networking** tab perform the following steps:
 
-	a. In the **Resource Group** section, locate the **Use existing** option, and then select the **20532** resource group.
+	a. In the **Virtual Network** list, make sure the **vnet20532** virtual network is selected.
+	
+	a. In the **Subnet** list, make sure the **Apps** subnet is selected.
+	
+	a. Accept all the other default options.
+	
+	a. Click the **Next: Management >** button.	
+	
+	
+1. In the **Management** tab perform the following steps:
 
-	a. In the **Location** list, select the region closest to your current location.
+	a. In the **Boot diagnostics** option, select the **Off** option..
+	
+	a. In the **Guest OS diagnostics** option, select the **Off** option.
+	
+	a. Accept all the other default options.
+	
+	a. Click the **Review + create** button.
+	
 
-	a. Click the **OK** button.
-
-1. In the **Create Virtual Machine** blade, click **Size** and perform the following steps:
-
-	a. Locate the search field at the top of the blade and then enter the value *F4*.
-
-	a. Locate and select the **F4 Standard** option.
-
-	a. Click the **Select** button.
-
-1. In the **Create Virtual Machine** blade, click **Settings** and perform the following steps:
-
-	a. Under the **Storage > Use managed disks** section, select the **No** option.
-
-	a. Click the **Storage Account** section and then select **stor20532[your name here]**.
-
-	a. Click the **Virtual Network** section and then select **vnet20532**.
-
-	a. Click the **Subnet** section and then select **Apps**.
-
-	a. Leave default values for **Public IP Address**, **Network Security Group (firewall)**, **Extensions** and **High Availability**.
-
-	a. In the **Enable auto-shutdown** section, select the **On** option and configure a shutdown time that is after business hours in your location.
-
-	a. Under the **Monitoring > Boot diagnostics** section, select the **Disabled** option.
-
-	a. Under the **Monitoring > Guest OS diagnostics** section, select the **Disabled** option.
-
-	a. Scroll down and click **OK**.
-
-1. In the **Create Virtual Machine** blade, click **Summary** and then click **Create** to create the virtual machine using your specified configuration.
+1. In the **Review + create** tab, review all the select options and then click **Create** to create the virtual machine using your specified configuration.
 
 	> **Note**: The creation of a new virtual machine can take anywhere between 10 to 15 minutes. You will see a notification on the Dashboard (home screen) when your virtual machine is created and running.
 
-1. Select the newly created virtual machine from your Dashboard.
+1. In the navigation pane on the left side of the Azure Portal, click **All services**.
+
+1. In the **All services** blade that displays, click **Virtual machines**
+
+1. Select the newly created virtual machine from the list.
 
 1. In the **vm20532** blade, locate the **Settings** section.
 
