@@ -186,6 +186,40 @@
 
 1. On the **Build** menu, click **Build Solution**.
 
+1. In Solution Explorer, right-click **Contoso.Events** and select **Manage NuGet Packages for Solution**.
+
+1. Click the **Updates** tab.
+
+1. Select the check box for **Select all packages**.
+
+1. Click **Update**.
+
+1. In the Preview Changes dialog box, click **OK**.
+
+1. In the License Acceptance dialog box, click **I Accept**.
+
+1. Wait for the updates to complete.
+
+1. In the Manage Packages for Solution window, click the **Browse** tab
+
+1. Search for **Microsoft.Azure.WebJobs.Extensions.Storage**.
+
+1. Select the check box to **Include prerelease packages**.
+
+1. In the packages pane, select **Microsoft.Azure.WebJobs.Extensions.Storage**. 
+
+1. On the right side of the window, select the check box for **Contoso.Events.Worker**.
+
+1. In the Version drop-down list, make sure **3.0.0** is selected.
+
+1. Click **Install**.
+
+1. In the Preview Changes dialog box, click **OK**.
+
+1. In the License Acceptance dialog box, click **I Accept**.
+
+1. Wait for the updates to complete.
+
 1. In the **Solution Explorer** pane of the Contoso.Events - Microsoft Visual Studio window, expand the **Contoso.Events.Management** project.
 
 1. In the **Solution Explorer** pane, double-click **appsettings.json**.
