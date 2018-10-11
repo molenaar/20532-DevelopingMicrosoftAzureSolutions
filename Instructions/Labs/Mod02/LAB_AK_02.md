@@ -118,7 +118,7 @@
 	
 	a. In the **Image** list, click in the **Browse all images and disks** link.
 	
-	a. Search for **Visual Studio 2017** and the select the **Visual Studio Community 2017 on Windows Server 2016 (x64)** option in the list of results. 
+	a. Search for **Visual Studio 2017** and the select the **Visual Studio Community 2017 (latest preview) on Windows Server 2016 (x64)** option in the list of results. 
 
 	a. In the **Size** option, click in the **Change size** link.
 	
