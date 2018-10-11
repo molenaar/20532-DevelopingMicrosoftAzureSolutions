@@ -86,7 +86,7 @@
 
 #### Task 1: Deploying the Contoso Events Solution using ARM
 
-1. On the left side of the portal, click the **Create a resource** link.
+1. On the left side of the portal, click the **+ Create a resource** link.
 
 1. At the top of the **New** blade, locate the **Search the Marketplace** field.
 
@@ -162,7 +162,7 @@
 
     a. In the **Create App** field, enter the value **contosoevents[Your Name Here]**.
 
-    a. In the **Grant Common Data Services Permissions** section, select the **On** option.
+    a. In the **Grant Common Data Services Permissions** section, select the **Off** option.
 
     a. Click the **OK** button.
 
